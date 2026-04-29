@@ -28,7 +28,7 @@ function App() {
     </div>
 
   return (
-      <div key={todo.id}>
+      <{todo.map((todo))=> ()}>
           <p>ID: {todo.id}</p>
           <p>Title: {todo.title}</p>
           <p>Completed: {todo.completed ? "Yes" : "No"}</p>
